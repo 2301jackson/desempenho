@@ -9,13 +9,15 @@ package desempenho;
  *
  * @author Jackson
  */
-public class Desempenho {
+public class Orcamento {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    private double valor;
+
+    public Orcamento(double valor) {
+        this.valor = valor;
     }
-    
+
+    public double getValor() {
+        return valor;
+    }
 }
